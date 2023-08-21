@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "Poppins";
+}
+
+body {
+  display: flex;
+  width: 1440px;
+  .title_page {
+    width: 750px;
+    height: 990px;
+    flex-shrink: 0;
+    background: #e2f0ff;
+    .img1 {
+      background-image: url(../assets/Img1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 524px;
+      height: 391px;
+      margin: 174px 0 0 93px;
+    }
+    h1 {
+      color: #292731;
+      text-align: center;
+      font: 600 26px "Poppins";
+      line-height: 131.5%;
+      width: 400px;
+      height: 68px;
+      margin: 56px 0 0 150px;
+    }
+    p {
+      color: #455360;
+      text-align: center;
+      font: 400 16px "Poppins";
+      line-height: 170%;
+      width: 386px;
+      height: 54px;
+      margin: 23px 0 0 160px;
+    }
+  }
+
+  .login {
+    text-align: start;
+    margin: 166px 0 0 135px;
+    .img2 {
+      background-image: url(../assets/img2.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 36px;
+      height: 36px;
+    }
+    h1 {
+      color: #292731;
+      font: 600 30px "Poppins";
+      margin-top: 12px;
+    }
+    p {
+      color: #292731;
+      font: 400 16px "Poppins";
+      line-height: 170%;
+      margin-top: 12px;
+    }
+
+    .e-mail {
+      display: flex;
+      align-items: center;
+      p {
+        color: #455360;
+        font: 500 16px "Poppins";
+        margin-top: 62px;
+      }
+      .img3 {
+        background-image: url(../assets/img3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+        margin: 62px 0 0 225px;
+      }
+    }
+    .input1 {
+      border-radius: 4px;
+      background: #ecf2f7;
+      width: 440px;
+      height: 48px;
+      margin-top: 10px;
+    }
+    .input1::placeholder {
+      color: #7b8389;
+      font: 400 16px "Poppins";
+      line-height: 170%;
+      padding-left: 22px;
+    }
+
+    .password {
+      p {
+        color: #455360;
+        font: 500 16px "Poppins";
+        margin-top: 30px;
+      }
+      .input2 {
+        border-radius: 4px;
+        background: #ecf2f7;
+        width: 440px;
+        height: 48px;
+        margin-top: 10px;
+      }
+      .input2::placeholder {
+        color: #7b8389;
+        font: 400 16px "Poppins";
+        line-height: 170%;
+        padding-left: 22px;
+      }
+    }
+  }
+
+  .button {
+    margin-top: 44px;
+    border-radius: 8px;
+    background: #4c70ff;
+    width: 443px;
+    height: 54px;
+    color: #fff;
+    font: 500 20px "Poppins";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .final_page {
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    h3 {
+      color: #292731;
+      font: 500 16px "Poppins";
+    }
+    div h3 {
+      color: #66bce8;
+      font: 500 16px "Poppins";
+      margin-left: 5px;
+    }
+  }
+}
