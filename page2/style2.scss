@@ -14,7 +14,7 @@ body {
     flex-shrink: 0;
     background: #e2f0ff;
     .img1 {
-      background-image: url(./assets/Img1.png);
+      background-image: url(../assets/Img1.png);
       background-size: contain;
       background-repeat: no-repeat;
       width: 524px;
@@ -45,7 +45,7 @@ body {
     text-align: start;
     margin: 166px 0 0 135px;
     .img2 {
-      background-image: url(./assets/img2.png);
+      background-image: url(../assets/img2.png);
       background-size: contain;
       background-repeat: no-repeat;
       width: 36px;
@@ -72,7 +72,7 @@ body {
         margin-top: 62px;
       }
       .img3 {
-        background-image: url(./assets/img3.png);
+        background-image: url(../assets/img3.png);
         background-size: contain;
         background-repeat: no-repeat;
         width: 16px;
@@ -108,6 +108,27 @@ body {
         margin-top: 10px;
       }
       .input2::placeholder {
+        color: #7b8389;
+        font: 400 16px "Poppins";
+        line-height: 170%;
+        padding-left: 22px;
+      }
+    }
+
+    .confirm_password {
+      p {
+        color: #455360;
+        font: 500 16px "Poppins";
+        margin-top: 30px;
+      }
+      .input3 {
+        border-radius: 4px;
+        background: #ecf2f7;
+        width: 440px;
+        height: 48px;
+        margin-top: 10px;
+      }
+      .input3::placeholder {
         color: #7b8389;
         font: 400 16px "Poppins";
         line-height: 170%;

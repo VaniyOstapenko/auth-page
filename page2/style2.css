@@ -19,7 +19,7 @@ body .title_page {
   background: #e2f0ff;
 }
 body .title_page .img1 {
-  background-image: url(./assets/Img1.png);
+  background-image: url(../assets/Img1.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 524px;
@@ -49,7 +49,7 @@ body .login {
   margin: 166px 0 0 135px;
 }
 body .login .img2 {
-  background-image: url(./assets/img2.png);
+  background-image: url(../assets/img2.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 36px;
@@ -80,7 +80,7 @@ body .login .e-mail p {
   margin-top: 62px;
 }
 body .login .e-mail .img3 {
-  background-image: url(./assets/img3.png);
+  background-image: url(../assets/img3.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 16px;
@@ -161,6 +161,48 @@ body .login .password .input2::-ms-input-placeholder {
   padding-left: 22px;
 }
 body .login .password .input2::placeholder {
+  color: #7b8389;
+  font: 400 16px "Poppins";
+  line-height: 170%;
+  padding-left: 22px;
+}
+body .login .confirm_password p {
+  color: #455360;
+  font: 500 16px "Poppins";
+  margin-top: 30px;
+}
+body .login .confirm_password .input3 {
+  border-radius: 4px;
+  background: #ecf2f7;
+  width: 440px;
+  height: 48px;
+  margin-top: 10px;
+}
+body .login .confirm_password .input3::-webkit-input-placeholder {
+  color: #7b8389;
+  font: 400 16px "Poppins";
+  line-height: 170%;
+  padding-left: 22px;
+}
+body .login .confirm_password .input3::-moz-placeholder {
+  color: #7b8389;
+  font: 400 16px "Poppins";
+  line-height: 170%;
+  padding-left: 22px;
+}
+body .login .confirm_password .input3:-ms-input-placeholder {
+  color: #7b8389;
+  font: 400 16px "Poppins";
+  line-height: 170%;
+  padding-left: 22px;
+}
+body .login .confirm_password .input3::-ms-input-placeholder {
+  color: #7b8389;
+  font: 400 16px "Poppins";
+  line-height: 170%;
+  padding-left: 22px;
+}
+body .login .confirm_password .input3::placeholder {
   color: #7b8389;
   font: 400 16px "Poppins";
   line-height: 170%;
