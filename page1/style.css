@@ -197,8 +197,9 @@ body .final_page h3 {
   color: #292731;
   font: 500 16px "Poppins";
 }
-body .final_page div h3 {
+body .final_page div h3 a {
   color: #66bce8;
   font: 500 16px "Poppins";
   margin-left: 5px;
+  text-decoration: none;
 }

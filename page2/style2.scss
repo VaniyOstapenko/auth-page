@@ -157,10 +157,11 @@ body {
       color: #292731;
       font: 500 16px "Poppins";
     }
-    div h3 {
+    div h3 a {
       color: #66bce8;
       font: 500 16px "Poppins";
       margin-left: 5px;
+      text-decoration: none;
     }
   }
 }
